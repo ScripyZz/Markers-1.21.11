@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dmgmarkers",
+  "name": "DMGMarkers",
+  "version": "${version}",
+  "description": "Displays damage and healing indicators above entities.",
+  "authors": [
+    "ScripyZz"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "markers.DamageDisplayMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
